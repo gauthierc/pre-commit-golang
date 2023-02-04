@@ -93,3 +93,8 @@
     files: '\.go$'
     language: 'script'
     description: "Runs `go mod vendor`, requires golang"
+-   id: govulncheck
+    name: 'govulncheck'
+    entry: govulncheck ./...
+    language: 'system'
+    description: "Runs `govulncheck`, requires golang"
