@@ -95,6 +95,6 @@
     description: "Runs `go mod vendor`, requires golang"
 -   id: govulncheck
     name: 'govulncheck'
-    entry: govulncheck ./...
-    language: 'system'
+    entry: ./run-govulncheck.sh
+    language: 'script'
     description: "Runs `govulncheck`, requires golang"
